@@ -13,7 +13,7 @@ console.log(umurDewasa + ' ' + umurCukup);
 var pesanan = "coffe"
 var hargaJuice = 10000;
 var hargaCoffe = 25000;
-var uangPelanggan = 3000;
+var uangPelanggan = 30000;
 var kurang = "Uang tidak cukup. Kamu tidak bisa pesan";
 var strukHarga = "Anda bisa pesan minum. Sisa uang anda: [5000]";
 console.log(pesanan + ' ' + hargaCoffe + ' ' + strukHarga);
