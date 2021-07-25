@@ -1,10 +1,10 @@
 // Kerjakan kode JavaScript kalian di bawah ini
-let nama = "";
-umur = 0;
-myMoney = 0;
+let nama = "Adri Gunawan";
+umur = 19;
+myMoney = 26000;
 var hargaKopi = 25000;
 var hargaJuice = 10000;
-var nama1 = (nama === 'Adri Gunawan' ? ': Silakan masuk' : 'Anda tidak boleh masuk !');
+var nama1 = (nama === 'Adri Gunawan' ? ': Silakan masuk' : 'Kosong nih isi dong :*');
 console.log ("===== Pengunjung Cafe Strada =====")
 if (nama === "") {
     console.log (nama1)
