@@ -23,7 +23,7 @@ if (nama !== "") {
     } 
            
     /*kalo umur pengunjung dibawah 13 tahun cuma boleh pesen jus*/       
- if (umur >=0 && umur <= 13 ) {
+ if (umur >=0 && umur < 13 ) {
         console.log([nama]+" kamu cuma bisa pesen jus");
         if (duit === 10000){
             console.log("uang mu pas");
