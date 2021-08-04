@@ -17,3 +17,18 @@ if (nama === "") {
 if (umur <=0) {
     console.log ()
 } else if (umur >= 13) {
+    console.log ('Anda bisa memesan kopi')
+} else {
+    console.log ('Anda bisa memesan juice')
+}
+
+if (myMoney <=0) {
+    console.log ()
+} else if (myMoney >= hargaJuice) {
+    console.log ('Sisa kembali anda = ${myMoney - hargaJuice}')
+} else if (myMoney >=hargaKopi) {
+    console.log ('Sisa kembali anda = ${myMoney - hargaKopi}')
+} else {
+    console.log ('Maaf uang anda tidak cukup')
+}
+console.log ("==========")
